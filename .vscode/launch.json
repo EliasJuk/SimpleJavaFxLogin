@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "SimpleJavaFxLogin_2b6f5f37",
+            "vmArgs": "--module-path \"C:/Program Files/JavaFX/javafx-sdk-21.0.4/lib\" --add-modules javafx.controls,javafx.fxml" // Ajuste o caminho para o diretório lib do JavaFX
+        }
+    ]
+}
