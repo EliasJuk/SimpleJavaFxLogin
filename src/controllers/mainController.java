@@ -23,7 +23,7 @@ public class mainController {
     void newWindowAction(ActionEvent event) {
         try {
             // Carregar o novo FXML
-            FXMLLoader loader = new FXMLLoader(mainController.class.getResource("/scenes/sceneSecundaria.fxml"));
+            FXMLLoader loader = new FXMLLoader(mainController.class.getResource("/scenes/sceneNova.fxml"));
             Pane newSceneRoot = loader.load(); //CERTIFIQUE QUAL É O OBJETO PRINCIPAL A SER ABERTO (Pane - AnchorPane - Scene)
     
             // Criar uma nova cena
