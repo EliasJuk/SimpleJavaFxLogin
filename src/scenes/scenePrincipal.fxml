@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.mainController">
    <children>
-      <Label layoutX="133.0" layoutY="183.0" text="Hello World!">
+      <Label layoutX="211.0" layoutY="164.0" text="Hello World!">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
+      <Button fx:id="btnNewWindow" layoutX="120.0" layoutY="323.0" mnemonicParsing="false" onAction="#newWindowAction" prefHeight="61.0" prefWidth="146.0" text="Nova Janela" />
+      <Button fx:id="btnUpdateWindow" layoutX="295.0" layoutY="323.0" mnemonicParsing="false" onAction="#UpdateWindowAction" prefHeight="61.0" prefWidth="146.0" text="Atualiza Janela" />
    </children>
 </Pane>
